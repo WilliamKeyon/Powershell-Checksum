@@ -5,13 +5,26 @@ A PowerShell script to perform a file checksum and verify its integrity.
 Calculates, compares and display the checksum of the specified file with the known provided hash.
 
 ### Usage
+
 ```
 Checksum -FilePath .\Example.txt -Hash ED076287532E86365E841E92BFC50D8C -Alg MD5
 ```
+
 or more simply
+
 ```
 Checksum .\Example.txt ED076287532E86365E841E92BFC50D8C
 ```
+
+### Install
+
+Install from PowerShell Gallery
+
+```
+Install-Script -Name Checksum
+```
+
+or by manually downloading and running the Checksum.ps1 file.
 
 ## Parameters
 
